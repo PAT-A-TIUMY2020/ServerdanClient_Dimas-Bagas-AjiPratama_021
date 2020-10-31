@@ -50,18 +50,16 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(319, 121);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 17);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Server ON";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(287, 155);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(179, 17);
+            this.label3.Size = new System.Drawing.Size(0, 17);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Klick OFF untuk mematikan";
             // 
             // button1
             // 
