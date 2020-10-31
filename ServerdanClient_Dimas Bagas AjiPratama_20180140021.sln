@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerdanClient_Dimas Bagas AjiPratama_20180140021", "ServerdanClient_Dimas Bagas AjiPratama_20180140021\ServerdanClient_Dimas Bagas AjiPratama_20180140021.csproj", "{1B0A81A4-BC93-4368-89C1-9C0FCBA95279}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client_Dimas Bagas AjiPratama_20180140021", "ServerdanClient_Dimas Bagas AjiPratama_20180140021\Client_Dimas Bagas AjiPratama_20180140021.csproj", "{1B0A81A4-BC93-4368-89C1-9C0FCBA95279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server_Dimas Bagas AjiPratama_20180140021", "Server_Dimas Bagas AjiPratama_20180140021\Server_Dimas Bagas AjiPratama_20180140021.csproj", "{792F5521-7A7C-4869-A815-6E5A80887B37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1B0A81A4-BC93-4368-89C1-9C0FCBA95279}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B0A81A4-BC93-4368-89C1-9C0FCBA95279}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B0A81A4-BC93-4368-89C1-9C0FCBA95279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792F5521-7A7C-4869-A815-6E5A80887B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792F5521-7A7C-4869-A815-6E5A80887B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792F5521-7A7C-4869-A815-6E5A80887B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792F5521-7A7C-4869-A815-6E5A80887B37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

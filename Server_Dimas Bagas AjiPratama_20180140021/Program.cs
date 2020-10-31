@@ -4,8 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-namespace ServerdanClient_Dimas_Bagas_AjiPratama_20180140021
+namespace Server_Dimas_Bagas_AjiPratama_20180140021
 {
     static class Program
     {
