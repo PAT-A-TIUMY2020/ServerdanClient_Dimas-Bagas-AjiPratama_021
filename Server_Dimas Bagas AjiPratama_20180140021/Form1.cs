@@ -28,30 +28,21 @@ namespace Server_Dimas_Bagas_AjiPratama_20180140021
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-            try
-            {
-                hostObj = new ServiceHost(typeof(Matematika));
-                hostObj.Open();
-                hostObj.Close();
-            }
-            catch (Exception ex)
-            {
-                hostObj = null;
-            }
+            button1.Enabled = true;
+            button2.Enabled = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-
+                button1.Enabled = false;
+                button2.Enabled = true;
+                ServiceHost hostObj = null;
                 hostObj = new ServiceHost(typeof(Matematika));
                 hostObj.Open();
                 label2.Text = "Server ON";
                 label3.Text = "Klik OFF untuk Mematikan Server";
-                button1.Enabled = false;
-                button2.Enabled = true;
 
 
             }
